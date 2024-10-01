@@ -1,0 +1,12 @@
+{
+    "name": "Fisgurgoblin 2",
+    "race": "Fisgurgoblin",
+    "lp_max": 7,
+    "abilities": [
+        "ability_vaabenbrug",
+        "ability_ekstra_livspoint_1",
+        "ability_koordination_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

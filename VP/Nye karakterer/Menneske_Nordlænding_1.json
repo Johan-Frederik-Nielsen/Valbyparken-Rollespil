@@ -1,0 +1,13 @@
+{
+    "name": "Menneske, Nordlænding 1",
+    "race": "Menneske, Nordlænding",
+    "lp_max": 7,
+    "abilities": [
+        "ability_vaabenbrug",
+        "ability_klatre_1",
+        "ability_skjoldbrug",
+        "ability_koordination_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

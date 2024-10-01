@@ -1,0 +1,14 @@
+{
+    "name": "Goblin 2",
+    "race": "Goblin",
+    "lp_max": 5,
+    "abilities": [
+        "ability_klatre_1",
+        "ability_koordination_1",
+        "ability_overvaagenhed_1",
+        "ability_koordination_2",
+        "ability_lommetyveri_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

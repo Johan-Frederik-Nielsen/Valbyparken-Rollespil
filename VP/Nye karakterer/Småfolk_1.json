@@ -1,0 +1,14 @@
+{
+    "name": "Småfolk 1",
+    "race": "Småfolk",
+    "lp_max": 4,
+    "abilities": [
+        "ability_sagnkundskab",
+        "ability_overvaagenhed_1",
+        "ability_giftmodstand_2",
+        "ability_overvaagenhed_2",
+        "ability_giftmodstand_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

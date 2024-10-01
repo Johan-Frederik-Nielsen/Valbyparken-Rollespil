@@ -1,0 +1,186 @@
+[
+    {"id": "ability_afstandsvaaben", "name": "Afstandsvåben", "cost": 2, "prerequisite": {"requires_abilities": "ability_koordination_1"}},
+    {"id": "ability_alkymi", "name": "Alkymi", "cost": 12, "prerequisite": {"requires_abilities": ["ability_giftkundskab_1","ability_urtekundskab_1"]}},
+    {"id": "ability_bonk", "name": "Bonk", "cost": 4, "prerequisite": {"requires_abilities": "ability_koordination_1"}},
+    {"id": "ability_dirke_laase_1", "name": "Dirke låse niveau 1", "cost": 2, "prerequisite": null},
+    {"id": "ability_dirke_laase_2", "name": "Dirke låse niveau 2", "cost": 2, "prerequisite": {"requires_abilities": "ability_dirke_laase_1"}},
+    {"id": "ability_dirke_laase_3", "name": "Dirke låse niveau 3", "cost": 4, "prerequisite": {"requires_abilities": ["ability_dirke_laase_2","ability_koordination_1"]}},
+    {"id": "ability_dirke_laase_4", "name": "Dirke låse niveau 4", "cost": 4, "prerequisite": {"requires_abilities": ["ability_dirke_laase_3","ability_koordination_1"]}},
+    {
+      "id": "ability_ekstra_livspoint_1",
+      "name": "Ekstra Livspoint niveau 1",
+      "cost": 4,
+      "prerequisite": {
+        "lp_max_needed": 1
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_2",  
+      "name": "Ekstra Livspoint niveau 2",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_1",
+        "lp_max_needed": 2
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_3",
+      "name": "Ekstra Livspoint niveau 3",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_2",
+        "lp_max_needed": 3
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_4",
+      "name": "Ekstra Livspoint niveau 4",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_3",
+        "lp_max_needed": 4
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_5",
+      "name": "Ekstra Livspoint niveau 5",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_4",
+        "lp_max_needed": 5
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_6",
+      "name": "Ekstra Livspoint niveau 6",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_5",
+        "lp_max_needed": 6
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_7",
+      "name": "Ekstra Livspoint niveau 7",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_6",
+        "lp_max_needed": 7
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_8",
+      "name": "Ekstra Livspoint niveau 8",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_7",
+        "lp_max_needed": 8
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_9",
+      "name": "Ekstra Livspoint niveau 9",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_8",
+        "lp_max_needed": 9
+      }
+    },
+    {
+      "id": "ability_ekstra_livspoint_10",
+      "name": "Ekstra Livspoint niveau 10",
+      "cost": 4,
+      "prerequisite": {
+        "requires_abilities": "ability_ekstra_livspoint_9",
+        "lp_max_needed": 10
+      }
+    },
+    {"id": "ability_eksotisk_handlende_1", "name": "Eksotisk Handlende niveau 1", "cost": 2, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": ["ability_urtekundskab_1", "ability_vurdere"] 
+  }},
+    {"id": "ability_eksotisk_handlende_2", "name": "Eksotisk Handlende niveau 2", "cost": 2, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": ["ability_urtekundskab_1", "ability_vurdere","ability_eksotisk_handlende_1"] 
+  }},
+    {"id": "ability_eksotisk_handlende_3", "name": "Eksotisk Handlende niveau 3", "cost": 4, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": ["ability_urtekundskab_1", "ability_vurdere", "ability_eksotisk_handlende_2"] 
+  }},
+    {"id": "ability_foerstehjaelp", "name": "Førstehjælp", "cost": 4, "prerequisite": null},
+    {"id": "ability_forklaede", "name": "Forklæde", "cost": 4, "prerequisite": {"requires_abilities": "ability_koordination_1"}},
+    {"id": "ability_giftkundskab_1", "name": "Giftkundskab niveau 1", "cost": 4, "prerequisite": null},
+    {"id": "ability_giftkundskab_2", "name": "Giftkundskab niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_giftkundskab_1"}},
+    {"id": "ability_giftkundskab_3", "name": "Giftkundskab niveau 3", "cost": 6, "prerequisite": {"requires_abilities": "ability_giftkundskab_2"}},
+    {"id": "ability_giftkundskab_4", "name": "Giftkundskab niveau 4", "cost": 6, "prerequisite": {"requires_abilities": "ability_giftkundskab_3"}},
+    {"id": "ability_giftmodstand_1", "name": "Giftmodstand niveau 1", "cost": 2, "prerequisite": null},
+    {"id": "ability_giftmodstand_2", "name": "Giftmodstand niveau 2", "cost": 2, "prerequisite": {"requires_abilities": "ability_giftmodstand_1"}},
+    {"id": "ability_giftmodstand_3", "name": "Giftmodstand niveau 3", "cost": 2, "prerequisite": {"requires_abilities": "ability_giftmodstand_2"}},
+    {"id": "ability_giftmodstand_4", "name": "Giftmodstand niveau 4", "cost": 2, "prerequisite": {"requires_abilities": "ability_giftmodstand_3"}},
+    {"id": "ability_guddommelig_vassal", "name": "Guddommelig Vassal", "cost": 10, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": "ability_kanalisere_guddommelig_kraft"
+  }},
+    {"id": "ability_hellig_ed", "name": "Hellig Ed", "cost": 10, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": "ability_kanalisere_guddommelig_kraft"
+  }},
+    {"id": "ability_kamptraening", "name": "Kamptræning", "cost": 8, "prerequisite": null},
+    {"id": "ability_kanalisere_guddommelig_kraft", "name": "Kanalisér Guddommelig Kraft", "cost": 6, "prerequisite": {"requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"]}},
+    {"id": "ability_kaste_skrive_magi", "name": "Kaste/Skrive Magi", "cost": 10, "prerequisite": {
+    "requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"], "requires_abilities": "ability_laese_magi"
+  }},
+    {"id": "ability_klatre", "name": "Klatre", "cost": 2, "prerequisite": null},
+    {"id": "ability_koordination_1", "name": "Koordination niveau 1", "cost": 2, "prerequisite": null},
+    {"id": "ability_koordination_2", "name": "Koordination niveau 2", "cost": 2, "prerequisite": {"requires_abilities": "ability_koordination_1"}},
+    {"id": "ability_lommetyveri_1", "name": "Lommetyveri niveau 1", "cost": 4, "prerequisite": {"requires_abilities": "ability_koordination_2"}},
+    {"id": "ability_lommetyveri_2", "name": "Lommetyveri niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_lommetyveri_1"}},
+    {"id": "ability_lommetyveri_3", "name": "Lommetyveri niveau 3", "cost": 4, "prerequisite": {"requires_abilities": "ability_lommetyveri_2"}},
+    {"id": "ability_laegkundskab_1", "name": "Lægekundskab niveau 1", "cost": 4, "prerequisite": null},
+    {"id": "ability_laegkundskab_2", "name": "Lægekundskab niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_laegkundskab_1"}},
+    {"id": "ability_laegkundskab_3", "name": "Lægekundskab niveau 3", "cost": 4, "prerequisite": {"requires_abilities": "ability_laegkundskab_2"}},
+    {"id": "ability_laegkundskab_4", "name": "Lægekundskab niveau 4", "cost": 4, "prerequisite": {"requires_abilities": "ability_laegkundskab_3"}},
+    {"id": "ability_laese_magi", "name": "Læse Magi", "cost": 6, "prerequisite": {"requires_one_of": 	["ability_laese_skrive_darconsk","ability_laese_skrive_eislonsk","ability_laese_skrive_emyriansk","ability_laese_skrive_garkiharn","ability_laese_skrive_garklin","ability_laese_skrive_oldparavisk","ability_laese_skrive_paravisk","ability_laese_skrive_runeskrift","ability_laese_skrive_taishen","ability_laese_skrive_tharkinsk","ability_laese_skrive_tziztisk","ability_laese_skrive_zarabinsk"]}},
+    {"id": "ability_laese_skrive_darconsk", "name": "Læse/Skrive Darconsk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_eislonsk", "name": "Læse/Skrive Eislonsk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_emyriansk", "name": "Læse/Skrive Emyriansk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_garkiharn", "name": "Læse/Skrive Gark-iharn", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_garklin", "name": "Læse/Skrive Garklin", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_oldparavisk", "name": "Læse/Skrive Oldparavisk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_paravisk", "name": "Læse/Skrive Paravisk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_runeskrift", "name": "Læse/Skrive Runeskrift", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_taishen", "name": "Læse/Skrive Tai-shen", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_tharkinsk", "name": "Læse/Skrive Tharkinsk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_tziztisk", "name": "Læse/Skrive Tziztisk", "cost": 4, "prerequisite": null},
+    {"id": "ability_laese_skrive_zarabinsk", "name": "Læse/Skrive Zarabinsk", "cost": 4, "prerequisite": null},
+    {"id": "ability_meditation_1", "name": "Meditation niveau 1", "cost": 2, "prerequisite": {"requires_abilities": "ability_kaste_skrive_magi"}},
+    {"id": "ability_meditation_2", "name": "Meditation niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_meditation_1"}},
+    {"id": "ability_meditation_3", "name": "Meditation niveau 3", "cost": 6, "prerequisite": {"requires_abilities": "ability_meditation_2"}},
+    {"id": "ability_mod", "name": "Mod", "cost": 6, "prerequisite": null},
+    {"id": "ability_overvaagenhed_1", "name": "Overvågenhed niveau 1", "cost": 2, "prerequisite": null},
+    {"id": "ability_overvaagenhed_2", "name": "Overvågenhed niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_overvaagenhed_1"}},
+    {"id": "ability_overvaagenhed_3", "name": "Overvågenhed niveau 3", "cost": 4, "prerequisite": {"requires_abilities": "ability_overvaagenhed_2"}},
+    {"id": "ability_runesmedning", "name": "Runesmedning", "cost": 10, "prerequisite": {"requires_abilities": "ability_smede_1"}},
+    {"id": "ability_rustningsbrug", "name": "Rustningsbrug", "cost": 2, "prerequisite": null},
+    {"id": "ability_sagnkundskab", "name": "Sagnkundskab", "cost": 4, "prerequisite": null},
+    {"id": "ability_sejdbryggeri_1", "name": "Sejdbryggeri niveau 1", "cost": 4, "prerequisite": null},
+    {"id": "ability_sejdbryggeri_2", "name": "Sejdbryggeri niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_sejdbryggeri_1"}},
+    {"id": "ability_sejdbryggeri_3", "name": "Sejdbryggeri niveau 3", "cost": 6, "prerequisite": {"requires_abilities": "ability_sejdbryggeri_2"}},
+    {"id": "ability_sejdbryggeri_4", "name": "Sejdbryggeri niveau 4", "cost": 6, "prerequisite": {"requires_abilities": "ability_sejdbryggeri_3"}},
+    {"id": "ability_shamanisme", "name": "Shamanisme", "cost": 12, "prerequisite": {"requires_abilities": ["ability_sejdbryggeri_1","ability_sagnkundskab"]}},
+    {"id": "ability_skjoldbrug", "name": "Skjoldbrug", "cost": 2, "prerequisite": null},
+    {"id": "ability_skyggepagt", "name": "Skyggepagt", "cost": 12, "prerequisite": {"requires_abilities": "ability_sejdbryggeri_2"}},
+    {"id": "ability_smede_1", "name": "Smede niveau 1", "cost": 2, "prerequisite": {"requires_abilities": "ability_styrke"}},
+    {"id": "ability_smede_2", "name": "Smede niveau 2", "cost": 2, "prerequisite": {"requires_abilities": "ability_smede_1"}},
+    {"id": "ability_smede_3", "name": "Smede niveau 3", "cost": 4, "prerequisite": {"requires_abilities": "ability_smede_2"}},
+    {"id": "ability_snigmord_1", "name": "Snigmord niveau 1", "cost": 6, "prerequisite": {"requires_abilities": "ability_koordination_1"}},
+    {"id": "ability_speciale", "name": "Speciale", "cost": 6, "prerequisite": null},
+    {"id": "ability_stridskogler", "name": "Stridskogler", "cost": 10, "prerequisite": {"requires_abilities": "ability_rustningsbrug"}},
+    {"id": "ability_styrke", "name": "Styrke", "cost": 4, "prerequisite": null},
+    {"id": "ability_tohaandsvaabenbrug", "name": "Tohåndsvåbenbrug", "cost": 2, "prerequisite": {"requires_abilities": ["ability_vaabenbrug","ability_styrke"]}},
+    {"id": "ability_tovaabenbrug", "name": "Tovåbenbrug", "cost": 2, "prerequisite": {"requires_abilities": ["ability_vaabenbrug","ability_koordination_2"]}},
+    {"id": "ability_udholdenhed", "name": "Udholdenhed", "cost": 6, "prerequisite": null},
+    {"id": "ability_urtekundskab_1", "name": "Urtekundskab niveau 1", "cost": 4, "prerequisite": null},
+    {"id": "ability_urtekundskab_2", "name": "Urtekundskab niveau 2", "cost": 4, "prerequisite": {"requires_abilities": "ability_urtekundskab_1"}},
+    {"id": "ability_urtekundskab_3", "name": "Urtekundskab niveau 3", "cost": 6, "prerequisite": {"requires_abilities": "ability_urtekundskab_2"}},
+    {"id": "ability_urtekundskab_4", "name": "Urtekundskab niveau 4", "cost": 6, "prerequisite": {"requires_abilities": "ability_urtekundskab_3"}},
+    {"id": "ability_vogter_af_naturens_sjael", "name": "Vogter af Naturens Sjæl", "cost": 12, "prerequisite": {"requires_abilities": "ability_urtekundskab_2"}},
+    {"id": "ability_vurdere", "name": "Vurdere", "cost": 4, "prerequisite": null},
+    {"id": "ability_vaabenbrug", "name": "Våbenbrug", "cost": 2, "prerequisite": {"requires_abilities": "ability_koordination_1"}}
+]
+

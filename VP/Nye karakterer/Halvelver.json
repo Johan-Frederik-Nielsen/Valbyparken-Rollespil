@@ -1,0 +1,10 @@
+{
+    "name": "Halvelver",
+    "race": "Halvelver",
+    "lp_max": 7,
+    "abilities": [
+        "ability_koordination_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

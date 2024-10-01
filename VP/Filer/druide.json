@@ -1,0 +1,217 @@
+[
+  {
+    "id": "druid_ability_grad_2",
+    "name": "Grad 2",
+    "type": "druid_ability",
+    "cost": 4,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 1,
+      "required_ability": null
+    }
+  },
+  {
+    "id": "druid_ability_grad_3",
+    "name": "Grad 3",
+    "type": "druid_ability",
+    "cost": 5,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 2,
+      "required_ability": "druid_ability_grad_2"
+    }
+  },
+  {
+    "id": "druid_ability_grad_4",
+    "name": "Grad 4",
+    "type": "druid_ability",
+    "cost": 9,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 3,
+      "required_ability": "druid_ability_grad_3"
+    }
+  },
+  { 
+    "id": "druid_ability_grad_5",
+    "name": "Grad 5",
+    "type": "druid_ability",
+    "cost": 11,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 0,
+      "grade": 4,
+      "required_ability": "druid_ability_grad_4"
+    }
+  },
+  {
+    "id": "druid_ability_grad_6",
+    "name": "Grad 6",
+    "type": "druid_ability",
+    "cost": 19,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 0,
+      "grade": 5,
+      "required_ability": "druid_ability_grad_5"
+    }
+  },
+  {
+    "id": "druid_spell_flammernes_noegle",
+    "name": "Flammernes nøgle",
+    "type": "druid_spell",
+    "cost": 2,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "ability_vogter_af_naturens_sjael",
+      "lower_level_spells_required": 0
+    }
+  },
+  {
+    "id": "druid_spell_naturlig_balance",
+    "name": "Naturlig balance",
+    "type": "druid_spell",
+    "cost": 2,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "ability_vogter_af_naturens_sjael",
+      "lower_level_spells_required": 0
+    }
+  },
+  {
+    "id": "druid_spell_sanse_liv",
+    "name": "Sanse Liv",
+    "type": "druid_spell",
+    "cost": 2,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "ability_vogter_af_naturens_sjael",
+      "lower_level_spells_required": 0
+    }
+  },
+  {
+    "id": "druid_spell_stennaeve",
+    "name": "Stennæve",
+    "type": "druid_spell",
+    "cost": 2,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "ability_vogter_af_naturens_sjael",
+      "lower_level_spells_required": 0
+    }
+  },
+  {
+    "id": "druid_spell_vand",
+    "name": "Vand",
+    "type": "druid_spell",
+    "cost": 2,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "ability_vogter_af_naturens_sjael",
+      "lower_level_spells_required": 0
+    }
+  },
+  {
+    "id": "druid_spell_barkhud",
+    "name": "Barkhud",
+    "type": "druid_spell",
+    "cost": 3,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_2",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_beskyttelse_mod_ondskab",
+    "name": "Beskyttelse mod ondskab",
+    "type": "druid_spell",
+    "cost": 3,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_2",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_loeslad_naturens_kraft",
+    "name": "Løslad naturens kraft",
+    "type": "druid_spell",
+    "cost": 3,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_2",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_modstaa_magi",
+    "name": "Modstå magi",
+    "type": "druid_spell",
+    "cost": 3,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_2",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_vindstoed",
+    "name": "Vindstød",
+    "type": "druid_spell",
+    "cost": 3,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_2",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_helbredelse",
+    "name": "Helbredelse",
+    "type": "druid_spell",
+    "cost": 4,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_3",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_stasis",
+    "name": "Stasis",
+    "type": "druid_spell",
+    "cost": 4,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_3",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_staa",
+    "name": "Stå",
+    "type": "druid_spell",
+    "cost": 4,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_3",
+      "lower_level_spells_required": 2
+    }
+  },
+  {
+    "id": "druid_spell_traeskjul",
+    "name": "Træskjul",
+    "type": "druid_spell",
+    "cost": 4,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "druid_ability_grad_3",
+      "lower_level_spells_required": 2
+    }
+  }
+]
+

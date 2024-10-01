@@ -1,0 +1,11 @@
+{
+    "name": "Menneske, Østerlænding 2",
+    "race": "Menneske, Østerlænding",
+    "lp_max": 7,
+    "abilities": [
+        "ability_sagnkundskab",
+        "ability_styrke"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

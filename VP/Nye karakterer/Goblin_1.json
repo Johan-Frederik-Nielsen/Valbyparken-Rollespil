@@ -1,0 +1,13 @@
+{
+    "name": "Goblin 1",
+    "race": "Goblin",
+    "lp_max": 5,
+    "abilities": [
+        "ability_overvaagenhed_1",
+        "ability_koordination_2",
+        "ability_koordination_1",
+        "ability_afstandsvaaben"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

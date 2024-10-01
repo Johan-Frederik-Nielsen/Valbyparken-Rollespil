@@ -1,0 +1,12 @@
+{
+    "name": "Højelver 1",
+    "race": "Højelver",
+    "lp_max": 7,
+    "abilities": [
+        "ability_koordination_2",
+        "ability_laese_skrive_eislonsk",
+        "ability_koordination_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

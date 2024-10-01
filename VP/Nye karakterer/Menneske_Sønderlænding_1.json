@@ -1,0 +1,10 @@
+{
+    "name": "Menneske, Sønderlænding 1",
+    "race": "Menneske, Sønderlænding",
+    "lp_max": 7,
+    "abilities": [
+        "ability_vurdere"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

@@ -1,0 +1,3972 @@
+[
+  {
+    "id": "god_aram",
+    "name": "Aram",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_arl",
+    "name": "Arl",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_burania",
+    "name": "Burania",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_dilarna",
+    "name": "Dilarna",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_djorka",
+    "name": "Djorka",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_fanabina",
+    "name": "Fanabina",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_fisgur",
+    "name": "Fisgur",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_gasnian",
+    "name": "Gasnian",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_girak",
+    "name": "Girak",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_gorrum",
+    "name": "Gorrum",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_iorin",
+    "name": "Iorin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_jorin",
+    "name": "Jorin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_lyane",
+    "name": "Lyane",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_nimar",
+    "name": "Nimar",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_phlarn",
+    "name": "Phlarn",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_ragil",
+    "name": "Ragil",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_rasnasolin",
+    "name": "Rasnasolin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_rina",
+    "name": "Rina",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_sissiana",
+    "name": "Sissiana",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_tara",
+    "name": "Tara",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_thlarn",
+    "name": "Thlarn",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_level_2",
+    "name": "Grad 2",
+    "type": "priest_level",
+    "cost": 4,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 1,
+        "gudeskole": 1
+      }
+    }
+  },
+  {
+    "id": "priest_level_3",
+    "name": "Grad 3",
+    "type": "priest_level",
+    "cost": 5,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 2,
+        "gudeskole": 2
+      }
+    }
+  },
+  {
+    "id": "priest_level_4",
+    "name": "Grad 4",
+    "type": "priest_level",
+    "cost": 6,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 3,
+        "gudeskole": 3
+      }
+    }
+  },
+  {
+    "id": "priest_level_5",
+    "name": "Grad 5",
+    "type": "priest_level",
+    "cost": 7,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 4,
+        "gudeskole": 4
+      }
+    }
+  },
+  {
+    "id": "priest_level_6",
+    "name": "Grad 6",
+    "type": "priest_level",
+    "cost": 8,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 5,
+        "gudeskole": 5
+      }
+    }
+  },
+  {
+    "id": "priest_spell_almen_velsignelse",
+    "name": "Velsignelse",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_almen_munkesegl",
+    "name": "Munkesegl",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_almen_sanse_liv",
+    "name": "Sanse Liv",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_almen_modstaa_magi",
+    "name": "Modstå Magi",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_almen_beskyttelse_mod_ondskab",
+    "name": "Beskyttelse mod Ondskab",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_almen_naadegave",
+    "name": "Nådegave",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_almen_helbredelse",
+    "name": "Helbredelse",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_almen_helligdom",
+    "name": "Helligdom",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_almen_messe",
+    "name": "Messe",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_almen_staa",
+    "name": "Stå",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_almen_doedens_minde",
+    "name": "Dødens Minde",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_almen_renselse",
+    "name": "Renselse",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_almen_fredslysning",
+    "name": "Fredslysning",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_almen_genoplivning",
+    "name": "Genoplivning",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_almen_sikret_helligdom",
+    "name": "Sikret Helligdom",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_almen_genopstandelse",
+    "name": "Genopstandelse",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_almen_guddommelig_visdom",
+    "name": "Guddommelig Visdom",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_almen_ophoejelse",
+    "name": "Ophøjelse",
+    "type": "priest_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_aram_loegn",
+    "name": "Løgn",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_aram_spillets_gang",
+    "name": "Spillets Gang",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_aram_spillefugl",
+    "name": "Spillefugl",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_aram_omtumlet",
+    "name": "Omtumlet",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_aram_glemsel",
+    "name": "Glemsel",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_aram_tavshed",
+    "name": "Tavshed",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_aram_charmer_person",
+    "name": "Charmér Person",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_aram_laan_sprog",
+    "name": "Låne Sprog",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_aram_giftmodstand",
+    "name": "Giftmodstand",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_aram_loefte",
+    "name": "Løfte",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_aram_magisk_laas",
+    "name": "Magisk Lås",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_aram_sloering",
+    "name": "Sløring",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_aram_gyldent_syn",
+    "name": "Gyldent Syn",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_aram_manipulation",
+    "name": "Manipulation",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_aram_sjette_sans",
+    "name": "Sjette Sans",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_aram_massecharmer",
+    "name": "Massecharmér",
+    "type": "priest_spell",
+    "school": "aram",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_arl_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_arl_mod",
+    "name": "Mod",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_arl_sanse_tro",
+    "name": "Sanse Tro",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_arl_klarsyn",
+    "name": "Klarsyn",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_arl_tale_med_doed",
+    "name": "Tale med Død",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_arl_oprigtig_vidnesbyrd",
+    "name": "Oprigtig Vidnesbyrd",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_arl_balancens_mur",
+    "name": "Balancens Mur",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_arl_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_arl_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_arl_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_arl_duel",
+    "name": "Duel",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_arl_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_arl_ligevaegt",
+    "name": "Ligevægt",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_arl_loefte",
+    "name": "Løfte",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_arl_fredens_plads",
+    "name": "Fredens Plads",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_arl_krigens_gave",
+    "name": "Krigens Gave",
+    "type": "priest_spell",
+    "school": "arl",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_burania_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_burania_endelig_hvile",
+    "name": "Endelig Hvile",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_burania_doedens_kys",
+    "name": "Dødens Kys",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_burania_frygt",
+    "name": "Frygt",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_burania_tale_med_doed",
+    "name": "Tale med Død",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_burania_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_burania_aandeform",
+    "name": "Åndeform",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_burania_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_burania_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_burania_animer_lig",
+    "name": "Animér Lig",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_burania_negativ_energi_immunitet",
+    "name": "Negativ Energi Immunitet",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_burania_livsdraen",
+    "name": "Livsdræn",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_burania_balancens_mur",
+    "name": "Balancens Mur",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_burania_sjaelevandring",
+    "name": "Sjælevandring",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_burania_doedens_maerke",
+    "name": "Dødens Mærke",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_burania_hellig_brynje",
+    "name": "Hellig Brynje",
+    "type": "priest_spell",
+    "school": "burania",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_doedens_kys",
+    "name": "Dødens Kys",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_dilarna_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_dilarna_livets_kys",
+    "name": "Livets Kys",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_dilarna_loegn",
+    "name": "Løgn",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_udholdenhed",
+    "name": "Udholdenhed",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_animer_lig",
+    "name": "Animér Lig",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_pinsel",
+    "name": "Pinsel",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_doedens_fortrin",
+    "name": "Dødens Fortrin",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_giftens_finger",
+    "name": "Giftens Finger",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_kontroller_stoerre_uddoed",
+    "name": "Kontrollér Større Udød",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_sjaelevandring",
+    "name": "Sjælevandring",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_doedens_maerke",
+    "name": "Dødens Mærke",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_dilarna_klarsind",
+    "name": "Klarsind",
+    "type": "priest_spell",
+    "school": "dilarna",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_djorka_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_djorka_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_djorka_fortryllet_smedje",
+    "name": "Fortryllet Smedje",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_omtumlet",
+    "name": "Omtumlet",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_projektilvaern",
+    "name": "Projektilværn",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_fortryllet_smedje_grad_3",
+    "name": "Fortryllet Smedje",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_elementskjold",
+    "name": "Elementskjold",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_kuglelyn",
+    "name": "Kuglelyn",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_fremmane_elementvaesen",
+    "name": "Fremmane Elementvæsen (kun Jord eller Vind)",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_statue",
+    "name": "Statue",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_jordskaelv",
+    "name": "Jordskælv",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_djorka_fremkald_elemententitet",
+    "name": "Fremkald Elemententitet (kun Jord eller Vind)",
+    "type": "priest_spell",
+    "school": "djorka",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_form_foelelser",
+    "name": "Form Følelser",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fanabina_loegn",
+    "name": "Løgn",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fanabina_tavshed",
+    "name": "Tavshed",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fanabina_charmer_person",
+    "name": "Charmér Person",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_forhekse",
+    "name": "Forhekse",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_gemme",
+    "name": "Gemme",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_haevneren",
+    "name": "Hævneren",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_ordets_forbandelse",
+    "name": "Ordets Forbandelse",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_doedens_fortrin",
+    "name": "Dødens Fortrin",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_manipulation",
+    "name": "Manipulation",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_skyggeskjul",
+    "name": "Skyggeskjul",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_blodpagt",
+    "name": "Blodpagt",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_kontroller_person",
+    "name": "Kontrollér Person",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_fremkalde_foelelser",
+    "name": "Fremkalde Følelser",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_fanabina_massecharme",
+    "name": "Massecharmé",
+    "type": "priest_spell",
+    "school": "fanabina",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fisgur_frygt",
+    "name": "Frygt",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fisgur_tavshed",
+    "name": "Tavshed",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_fisgur_fortaere",
+    "name": "Fortære",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_glemsel",
+    "name": "Glemsel",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_velsignet_klinge",
+    "name": "Velsignet Klinge",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_aura_af_vanhellig_magt",
+    "name": "Aura af Vanhellig Magt",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_giftens_finger",
+    "name": "Giftens Finger",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_soevn",
+    "name": "Søvn",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_livsdraen",
+    "name": "Livsdræn",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_doedens_fortrin",
+    "name": "Dødens Fortrin",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_blodpagt",
+    "name": "Blodpagt",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_fisgur_hypnose",
+    "name": "Hypnose",
+    "type": "priest_spell",
+    "school": "fisgur",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_ekspertise",
+    "name": "Ekspertise",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gasnian_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gasnian_sanse_tro",
+    "name": "Sanse Tro",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gasnian_klarsyn",
+    "name": "Klarsyn",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_identificere",
+    "name": "Identificere",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_gyldent_syn",
+    "name": "Gyldent Syn",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_stasis",
+    "name": "Stasis",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_jernvilje",
+    "name": "Jernvilje",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_forstaa_sprog",
+    "name": "Forstå Sprog",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_hypnose",
+    "name": "Hypnose",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_sloering",
+    "name": "Sløring",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_klarsind",
+    "name": "Klarsind",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_gasnian_sindslaas",
+    "name": "Sindslås",
+    "type": "priest_spell",
+    "school": "gasnian",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_girak_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_girak_spillefugl",
+    "name": "Spillefugl",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_girak_vand",
+    "name": "Vand",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_girak_gemme",
+    "name": "Gemme",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_girak_spillets_gang",
+    "name": "Spillets Gang",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_girak_velsignet_klinge",
+    "name": "Velsignet Klinge",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_girak_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_girak_giftens_finger",
+    "name": "Giftens Finger",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_girak_gyldent_syn",
+    "name": "Gyldent Syn",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_girak_vindens_vej_grad_4",
+    "name": "Vindens Vej",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_girak_livsdraen",
+    "name": "Livsdræn",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_girak_skyggeskjul",
+    "name": "Skyggeskjul",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_girak_loefte",
+    "name": "Løfte",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_girak_sjette_sans",
+    "name": "Sjette Sans",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_girak_giftgave",
+    "name": "Giftgave",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_girak_saarbarhed",
+    "name": "Sårbarhed",
+    "type": "priest_spell",
+    "school": "girak",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gorrum_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gorrum_vand",
+    "name": "Vand",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_gorrum_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_fortaere",
+    "name": "Fortære",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_ildkugle",
+    "name": "Ildkugle",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_projektilvaern",
+    "name": "Projektilværn",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_pinsel",
+    "name": "Pinsel",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_kuglelyn",
+    "name": "Kuglelyn",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_statue",
+    "name": "Statue",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_amok",
+    "name": "Amok",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_gorrum_hellig_brynje",
+    "name": "Hellig Brynje",
+    "type": "priest_spell",
+    "school": "gorrum",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_iorin_lys",
+    "name": "Lys",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_iorin_mod",
+    "name": "Mod",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_iorin_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_styrke",
+    "name": "Styrke",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_barmhjertighed",
+    "name": "Barmhjertighed",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_vaern",
+    "name": "Værn",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_jernvilje",
+    "name": "Jernvilje",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_krigsraab",
+    "name": "Krigsråb",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_hellig_brynje",
+    "name": "Hellig Brynje",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_lysets_vrede",
+    "name": "Lysets Vrede",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_renhed",
+    "name": "Renhed",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_iorin_fredens_plads",
+    "name": "Fredens Plads",
+    "type": "priest_spell",
+    "school": "iorin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_jorin_lys",
+    "name": "Lys",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_jorin_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_jorin_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_sanse_men",
+    "name": "Sanse Mén",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_udholdenhed",
+    "name": "Udholdenhed",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_konjuration",
+    "name": "Konjuration",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_hellig_brynje",
+    "name": "Hellig Brynje",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_lysets_vrede",
+    "name": "Lysets Vrede",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_klarsind",
+    "name": "Klarsind",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_jorin_renhed",
+    "name": "Renhed",
+    "type": "priest_spell",
+    "school": "jorin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_fred",
+    "name": "Fred",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_lyane_form_foelelser",
+    "name": "Form Følelser",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_lyane_vand",
+    "name": "Vand",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_lyane_charmer_person",
+    "name": "Charmér Person",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_traeskjul",
+    "name": "Træskjul",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_vandform",
+    "name": "Vandform",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_giftmodstand",
+    "name": "Giftmodstand",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_fredens_plads",
+    "name": "Fredens Plads",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_massecharmer",
+    "name": "Massecharmér",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_jordskaelv",
+    "name": "Jordskælv",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_lyane_klarsind",
+    "name": "Klarsind",
+    "type": "priest_spell",
+    "school": "lyane",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_fred",
+    "name": "Fred",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_nimar_lys",
+    "name": "Lys",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_nimar_sanse_men",
+    "name": "Sanse Mén",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_nimar_helbredelse",
+    "name": "Helbredelse",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_regeneration",
+    "name": "Regeneration",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_charmer_person",
+    "name": "Charmér Person",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_genoplivning",
+    "name": "Genoplivning",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_balancens_mur",
+    "name": "Balancens Mur",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_fredens_plads",
+    "name": "Fredens Plads",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_lysets_vrede",
+    "name": "Lysets Vrede",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_nimar_massegenoplivning",
+    "name": "Massegenoplivning",
+    "type": "priest_spell",
+    "school": "nimar",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_phlarn_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_phlarn_mod",
+    "name": "Mod",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_phlarn_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_animere_lig",
+    "name": "Animere Lig",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_manipulation",
+    "name": "Manipulation",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_pinsel",
+    "name": "Pinsel",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_kontroller_elementvaesen",
+    "name": "Kontroller Elementvæsen",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_krigsraab",
+    "name": "Krigsråb",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_kontroller_person",
+    "name": "Kontrollér Person",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_blodpagt",
+    "name": "Blodpagt",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_kontroller_stoerre_uddoed",
+    "name": "Kontrollér Større Udød",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_phlarn_krigens_gave",
+    "name": "Krigens Gave",
+    "type": "priest_spell",
+    "school": "phlarn",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_ragil_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_ragil_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_ragil_duel",
+    "name": "Duel",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_ildkugle",
+    "name": "Ildkugle",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_flammeklinge",
+    "name": "Flammeklinge",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_fortryllet_smedje",
+    "name": "Fortryllet Smedje",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_pinsel",
+    "name": "Pinsel",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_fremmane_elementvaesen",
+    "name": "Fremmane Elementvæsen (kun Ild)",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_kontroller_elementaraand",
+    "name": "Kontroller Elementarånd",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_flammehav",
+    "name": "Flammehav",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_ragil_krigens_gave",
+    "name": "Krigens Gave",
+    "type": "priest_spell",
+    "school": "ragil",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_vand",
+    "name": "Vand",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rasnasolin_lys",
+    "name": "Lys",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rasnasolin_mod",
+    "name": "Mod",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rasnasolin_vandform",
+    "name": "Vandform",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_dehydrere",
+    "name": "Dehydrere",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_iskugle",
+    "name": "Iskugle",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_projektilvaern",
+    "name": "Projektilværn",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_giftmodstand",
+    "name": "Giftmodstand",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_fremmane_elementvaesen",
+    "name": "Fremmane Elementvæsen (kun Vand)",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_kuglelyn",
+    "name": "Kuglelyn",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_fremkald_elemententitet",
+    "name": "Fremkald Elemententitet (kun Vand)",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_isform",
+    "name": "Isform",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_rasnasolin_renhed",
+    "name": "Renhed",
+    "type": "priest_spell",
+    "school": "rasnasolin",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_rina_ekspertise",
+    "name": "Ekspertise",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rina_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rina_lys",
+    "name": "Lys",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_rina_afvaerge",
+    "name": "Afværge",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rina_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rina_frygt",
+    "name": "Frygt",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_rina_identificere",
+    "name": "Identificere",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rina_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rina_animer_lig",
+    "name": "Animér Lig",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_rina_doedens_fortrin",
+    "name": "Dødens Fortrin",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rina_jernvilje",
+    "name": "Jernvilje",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rina_aandeform",
+    "name": "Åndeform",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_rina_kontroller_stoerre_uddoed",
+    "name": "Kontrollér Større Udød",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_rina_negativ_energi_immunitet",
+    "name": "Negativ Energi Immunitet",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_rina_renhed",
+    "name": "Renhed",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_rina_skabe_stoerre_uddoed",
+    "name": "Skabe Større Udød",
+    "type": "priest_spell",
+    "school": "rina",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_sissiana_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_sissiana_form_foelelser",
+    "name": "Form Følelser",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_sissiana_fred",
+    "name": "Fred",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_projektilvaern",
+    "name": "Projektilværn",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_charmer_person",
+    "name": "Charmér Person",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_vandform",
+    "name": "Vandform",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_traeskjul",
+    "name": "Træskjul",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_giftmodstand",
+    "name": "Giftmodstand",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_kontroller_person",
+    "name": "Kontrollér Person",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_massecharmer",
+    "name": "Massecharmér",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_jordskaelv",
+    "name": "Jordskælv",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_sissiana_fredsplads",
+    "name": "Fredsplads",
+    "type": "priest_spell",
+    "school": "sissiana",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_tara_ekspertise",
+    "name": "Ekspertise",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_tara_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_tara_vand",
+    "name": "Vand",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_tara_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_tara_vandform",
+    "name": "Vandform",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_tara_vindstoed",
+    "name": "Vindstød",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_tara_identificere",
+    "name": "Identificere",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_tara_ildkugle",
+    "name": "Ildkugle",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_tara_projektilvaern",
+    "name": "Projektilværn",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_tara_elementskjold",
+    "name": "Elementskjold",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_tara_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_tara_kontroller_elementvaesen",
+    "name": "Kontrollér Elementvæsen",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_tara_statue",
+    "name": "Statue",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_tara_fremmane_elementvaesen",
+    "name": "Fremmane Elementvæsen",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_tara_isform",
+    "name": "Isform",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_tara_jordskaelv",
+    "name": "Jordskælv",
+    "type": "priest_spell",
+    "school": "tara",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_kraftslag",
+    "name": "Kraftslag",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_thlarn_mod",
+    "name": "Mod",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_thlarn_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "priest_spell_thlarn_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_smerte",
+    "name": "Smerte",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "priest_level_2"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_krigsraab",
+    "name": "Krigsråb",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_fortaere",
+    "name": "Fortære",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_kommando",
+    "name": "Kommando",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "priest_level_3"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_flammeklinge",
+    "name": "Flammeklinge",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_livets_haab",
+    "name": "Livets Håb",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_blodrus",
+    "name": "Blodrus",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "priest_level_4"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_hellige_brynje",
+    "name": "Hellige Brynje",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_amok",
+    "name": "Amok",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "priest_level_5"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_jordskaelv",
+    "name": "Jordskælv",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  },
+  {
+    "id": "priest_spell_thlarn_krigens_gave",
+    "name": "Krigens Gave",
+    "type": "priest_spell",
+    "school": "thlarn",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "priest_level_6"
+    }
+  }
+]
+

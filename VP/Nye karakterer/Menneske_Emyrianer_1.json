@@ -1,0 +1,12 @@
+{
+    "name": "Menneske, Emyrianer 1",
+    "race": "Menneske, Emyrianer",
+    "lp_max": 7,
+    "abilities": [
+        "ability_koordination_1",
+        "ability_vaabenbrug",
+        "ability_laese_skrive_emyriansk"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

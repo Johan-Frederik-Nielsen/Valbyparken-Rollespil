@@ -1,0 +1,301 @@
+[
+    {
+        "id": "alkymi_antimagi",
+        "name": "Antimagi",
+        "cost": 8,
+        "prerequisite": {
+            "requires_abilities": ["alkymi_bloedning", "alkymi_alkymisk_analyse"]
+        }
+    },
+    {
+        "id": "alkymi_bloedning",
+        "name": "Blødning",
+        "cost": 4,
+        "prerequisite": {
+            "requires_abilities": ["ability_giftkundskab_1"]
+        }
+    },
+    {
+        "id": "alkymi_alkymisk_analyse",
+        "name": "Alkymisk Analyse",
+        "cost": 4,
+        "prerequisite": {
+            "requires_abilities": ["ability_urtekundskab_1"]
+        }
+    },
+    {
+        "id": "alkymi_droemmerejse",
+        "name": "Drømmerejse",
+        "cost": 8,
+        "prerequisite": {
+            "requires_abilities": ["ability_meditation_1"]
+        }
+    },
+    {
+        "id": "alkymi_kirurgi",
+        "name": "Kirurgi",
+        "cost": 8,
+        "prerequisite": {
+            "requires_abilities": ["alkymi_bloedning"]
+        }
+    },
+    {
+        "id": "alkymi_golem",
+        "name": "Golem",
+        "cost": 8,
+        "prerequisite": {
+            "requires_abilities": ["alkymi_kirurgi", "alkymi_alkymisk_analyse"]
+        }
+    },
+    {
+        "id": "alkymi_gravens_maske",
+        "name": "Gravens Maske",
+        "cost": 2,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 0,
+            "grade": 1
+        }
+    },
+    {
+        "id": "alkymi_metalsyre",
+        "name": "Metalsyre",
+        "cost": 2,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 0,
+            "grade": 1
+        }
+    },
+    {
+        "id": "alkymi_edderkoppesalve",
+        "name": "Edderkoppesalve",
+        "cost": 2,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 0,
+            "grade": 1
+        }
+    },
+    {
+        "id": "alkymi_lovehjerte",
+        "name": "Løvehjerte",
+        "cost": 2,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 0,
+            "grade": 1
+        }
+    },
+    {
+        "id": "alkymi_antimagisk_eliksir",
+        "name": "Antimagisk Eliksir",
+        "cost": 2,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 0,
+            "grade": 1
+        }
+    },
+    {
+        "id": "alkymi_helbredende_eliksir",
+        "name": "Helbredende Eliksir",
+        "cost": 3,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 2
+        }
+    },
+    {
+        "id": "alkymi_frosthjertesalve",
+        "name": "Frosthjertesalve",
+        "cost": 3,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 2
+        }
+    },
+    {
+        "id": "alkymi_styrkebryg",
+        "name": "Styrkebryg",
+        "cost": 3,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 2
+        }
+    },
+    {
+        "id": "alkymi_metalkim",
+        "name": "Metalkim",
+        "cost": 3,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 2
+        }
+    },
+    {
+        "id": "alkymi_eddersyre",
+        "name": "Eddersyre",
+        "cost": 3,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 2
+        }
+    },
+    {
+        "id": "alkymi_kadaverkul",
+        "name": "Kadaverkul",
+        "cost": 4,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 3
+        }
+    },
+    {
+        "id": "alkymi_udholdenhedsbryg",
+        "name": "Udholdenhedsbryg",
+        "cost": 4,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 3
+        }
+    },
+    {
+        "id": "alkymi_svartegrus",
+        "name": "Svartegrus",
+        "cost": 4,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 3
+        }
+    },
+    {
+        "id": "alkymi_sorteblod",
+        "name": "Sorteblod",
+        "cost": 4,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 3
+        }
+    },
+    {
+        "id": "alkymi_somnium",
+        "name": "Somnium",
+        "cost": 4,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 3
+        }
+    },
+    {
+        "id": "alkymi_ritzkrystal",
+        "name": "Ritzkrystal",
+        "cost": 5,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 4
+        }
+    },
+    {
+        "id": "alkymi_sansesalve",
+        "name": "Sansesalve",
+        "cost": 5,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 4
+        }
+    },
+    {
+        "id": "alkymi_sindstaage",
+        "name": "Sindståge",
+        "cost": 5,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 4
+        }
+    },
+    {
+        "id": "alkymi_laasegrus",
+        "name": "Låsegrus",
+        "cost": 5,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 4
+        }
+    },
+    {
+        "id": "alkymi_slaveblaek",
+        "name": "Slaveblæk",
+        "cost": 5,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 4
+        }
+    },
+    {
+        "id": "alkymi_sidste_time",
+        "name": "Sidste Time",
+        "cost": 6,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 5
+        }
+    },
+    {
+        "id": "alkymi_heltens_bryg",
+        "name": "Heltens Bryg",
+        "cost": 6,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 5
+        }
+    },
+    {
+        "id": "alkymi_kaerlighedseliksir",
+        "name": "Kærlighedseliksir",
+        "cost": 6,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 5
+        }
+    },
+    {
+        "id": "alkymi_tidskapsel",
+        "name": "Tidskapsel",
+        "cost": 6,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 5
+        }
+    },
+    {
+        "id": "alkymi_blodlys",
+        "name": "Blodlys",
+        "cost": 6,
+        "prerequisite": {
+            "type": "recipes",
+            "lower_level_recipes_required": 2,
+            "grade": 5
+        }
+    }
+]
+

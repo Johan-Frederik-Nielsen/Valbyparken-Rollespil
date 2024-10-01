@@ -1,0 +1,2016 @@
+[
+  {
+    "id": "wizard_level_1_elementalisme",
+    "name": "Elementalisme Grad 1",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "wizard_level_2_elementalisme",
+    "name": "Elementalisme Grad 2",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_level_3_elementalisme",
+    "name": "Elementalisme Grad 3",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_level_4_elementalisme",
+    "name": "Elementalisme Grad 4",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_level_5_elementalisme",
+    "name": "Elementalisme Grad 5",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 7,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_level_6_elementalisme",
+    "name": "Elementalisme Grad 6",
+    "type": "wizard_ability",
+    "school": "elementalisme",
+    "cost": 8,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_level_1_mentalisme",
+    "name": "Mentalisme Grad 1",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },  
+  {
+    "id": "wizard_level_2_mentalisme",
+    "name": "Mentalisme Grad 2",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_level_3_mentalisme",
+    "name": "Mentalisme Grad 3",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_level_4_mentalisme",
+    "name": "Mentalisme Grad 4",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_level_5_mentalisme",
+    "name": "Mentalisme Grad 5",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 7,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_level_6_mentalisme",
+    "name": "Mentalisme Grad 6",
+    "type": "wizard_ability",
+    "school": "mentalisme",
+    "cost": 8,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_level_1_morticisme",
+    "name": "Morticisme Grad 1",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "wizard_level_2_morticisme",
+    "name": "Morticisme Grad 2",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_morticisme"
+    }
+  },
+  {
+    "id": "wizard_level_3_morticisme",
+    "name": "Morticisme Grad 3",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_morticisme"
+    }
+  },
+  {
+    "id": "wizard_level_4_morticisme",
+    "name": "Morticisme Grad 4",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_morticisme"
+    }
+  },
+  {
+    "id": "wizard_level_5_morticisme",
+    "name": "Morticisme Grad 5",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 7,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_morticisme"
+    }
+  },
+  {
+    "id": "wizard_level_6_morticisme",
+    "name": "Morticisme Grad 6",
+    "type": "wizard_ability",
+    "school": "morticisme",
+    "cost": 8,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_manabro",
+    "name": "Manabro",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_school_level": 1
+    }
+  },
+  {
+    "id": "wizard_spell_hvaelving",
+    "name": "Hvælving",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_school_level": 1
+    }
+  },
+  {
+    "id": "wizard_spell_lys",
+    "name": "Lys",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_school_level": 1
+    }
+  },
+  {
+    "id": "wizard_spell_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_school_level": 1
+    }
+  },
+  {
+    "id": "wizard_spell_afvaerge",
+    "name": "Afværge",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_school_level": 2
+    }
+  },
+  {
+    "id": "wizard_spell_konjuration",
+    "name": "Konjuration",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_school_level": 2
+    }
+  },
+  {
+    "id": "wizard_spell_oploese",
+    "name": "Opløse",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_school_level": 2
+    }
+  },
+  {
+    "id": "wizard_spell_vaern",
+    "name": "Værn",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_school_level": 2
+    }
+  },
+  {
+    "id": "wizard_spell_gemme",
+    "name": "Gemme",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_school_level": 3
+    }
+  },
+  {
+    "id": "wizard_spell_identificere",
+    "name": "Identificere",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_school_level": 3
+    }
+  },
+  {
+    "id": "wizard_spell_ordets_forbandelse",
+    "name": "Ordets Forbandelse",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_school_level": 3
+    }
+  },
+  {
+    "id": "wizard_spell_sloering",
+    "name": "Sløring",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_school_level": 3
+    }
+  },
+  {
+    "id": "wizard_spell_draen_mana",
+    "name": "Dræn Mana",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_any_school_level": 4
+    }
+  },
+  {
+    "id": "wizard_spell_magisk_laases",
+    "name": "Magisk Lås",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_any_school_level": 4
+    }
+  },
+  {
+    "id": "wizard_spell_magisk_renselse",
+    "name": "Magisk Renselse",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_any_school_level": 4
+    }
+  },
+  {
+    "id": "wizard_spell_magisk_ladning",
+    "name": "Magisk Ladning",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_any_school_level": 5
+    }
+  },
+  {
+    "id": "wizard_spell_manabeholder",
+    "name": "Manabeholder",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_any_school_level": 5
+    }
+  },
+  {
+    "id": "wizard_spell_sjaelevandring",
+    "name": "Sjælevandring",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_any_school_level": 5
+    }
+  },
+  {
+    "id": "wizard_spell_draen_magisk_objekt",
+    "name": "Dræn Magisk Objekt",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_any_school_level": 6
+    }
+  },
+  {
+    "id": "wizard_spell_nexus",
+    "name": "Nexus",
+    "type": "wizard_spell",
+    "school": "almen",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_any_school_level": 6
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_spell_nexus"
+    }
+  },
+  {
+    "id": "wizard_spell_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_iskugle",
+    "name": "Iskugle",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_vandform",
+    "name": "Vandform",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_projektilvaern",
+    "name": "Projektilværn",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_vand",
+    "name": "Vand",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_vindstoed",
+    "name": "Vindstød",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kontroller_elementaand",
+    "name": "Kontroller Elementånd",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_flammeklinge",
+    "name": "Flammeklinge",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_dehydrere",
+    "name": "Dehydrere",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_ildkugle",
+    "name": "Ildkugle",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_elementskjold",
+    "name": "Elementskjold",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kuglelyn",
+    "name": "Kuglelyn",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_stenhud",
+    "name": "Stenhud",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_fremman_elementvaesen",
+    "name": "Fremman Elementvæsen",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_jordskaelv",
+    "name": "Jordskælv",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_statue",
+    "name": "Statue",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_fremkalde_elemententitet",
+    "name": "Fremkalde Elemententitet",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_isform",
+    "name": "Isform",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_flammehav",
+    "name": "Flammehav",
+    "type": "wizard_spell",
+    "school": "elementalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_elementalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_foroeget_foelelser",
+    "name": "Forøgede Følelser",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_mod",
+    "name": "Mod",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_tavshed",
+    "name": "Tavshed",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_charmer_person",
+    "name": "Charmer Person",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_form_foelelser",
+    "name": "Form Følelser",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_glemsel",
+    "name": "Glemsel",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_frygt_mentalisme",
+    "name": "Frygt",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_laane_sprog",
+    "name": "Låne Sprog",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kommando",
+    "name": "Kommando",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_oprigtigt_vidnesbyrd",
+    "name": "Oprigtigt Vidnesbyrd",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_soevn",
+    "name": "Søvn",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_manipulation",
+    "name": "Manipulation",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_stjaele_magi",
+    "name": "Stjæle Magi",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_jernvilje",
+    "name": "Jernvilje",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_hypnose",
+    "name": "Hypnose",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kontroller_person",
+    "name": "Kontroller Person",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_massecharmer",
+    "name": "Massecharmer",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_fremkalde_foelelser",
+    "name": "Fremkalde Følelser",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_fredens_plads",
+    "name": "Fredens Plads",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_sindslaas",
+    "name": "Sindslås",
+    "type": "wizard_spell",
+    "school": "mentalisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_mentalisme"
+    }
+  },
+  {
+    "id": "wizard_spell_doedens_kys",
+    "name": "Dødens Kys",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_regeneration",
+    "name": "Regeneration",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_sanse_liv",
+    "name": "Sanse Liv",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_livets_kys",
+    "name": "Livets Kys",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "wizard_level_1_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_beskyttelse_mod_ondskab",
+    "name": "Beskyttelse mod Ondskab",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_tale_med_doed",
+    "name": "Tale med Død",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_frygt_morticisme",
+    "name": "Frygt",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "wizard_level_2_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_animere_lig",
+    "name": "Animere Lig",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_aandeform",
+    "name": "Åndeform",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kontroller_udoed",
+    "name": "Kontroller Udød",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_doedens_minde",
+    "name": "Dødens Minde",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "wizard_level_3_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_livsdraen",
+    "name": "Livsdræn",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_negativ_energi_immunitet",
+    "name": "Negativ Energi Immunitet",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_staa",
+    "name": "Stå",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "wizard_level_4_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_kontroller_stoerre_udoed",
+    "name": "Kontroller Større Udød",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_doedens_fortrin",
+    "name": "Dødens Fortrin",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_livets_haab",
+    "name": "Livets Håb",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "wizard_level_5_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_destruktion",
+    "name": "Destruktion",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_doedens_maerke",
+    "name": "Dødens Mærke",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_morticisme"
+    }
+  },
+  {
+    "id": "wizard_spell_skabe_stoerre_udoed",
+    "name": "Skabe Større Udød",
+    "type": "wizard_spell",
+    "school": "morticisme",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "wizard_level_6_morticisme"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_spell_nexus"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_2",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_3",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_2"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_4",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_3"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_5",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_4"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_6",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_5"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_7",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_6"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_8",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_7"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_9",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_8"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_10",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_9"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_11",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_10"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_12",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_11"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_13",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_12"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_14",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_13"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_15",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_14"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_16",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_15"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_17",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_16"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_18",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_17"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_19",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_18"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_20",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_19"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_21",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_20"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_22",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_21"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_23",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_22"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_24",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_23"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_25",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_24"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_26",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_25"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_27",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_26"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_28",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_27"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_29",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_28"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_30",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_29"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_31",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_30"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_32",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_31"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_33",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_32"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_34",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_33"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_35",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_34"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_36",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_35"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_37",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_36"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_38",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_37"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_39",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_38"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_40",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_39"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_41",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_40"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_42",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_41"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_43",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_42"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_44",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_43"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_45",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_44"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_46",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_45"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_47",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_46"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_48",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_47"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_49",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_48"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_50",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_49"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_51",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_50"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_52",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_51"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_53",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_52"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_54",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_53"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_55",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_54"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_56",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_55"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_57",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_56"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_58",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_57"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_59",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_58"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_60",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_59"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_61",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_60"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_62",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_61"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_63",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_62"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_64",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_63"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_65",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_64"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_66",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_65"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_67",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_66"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_68",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_67"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_69",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_68"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_70",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_69"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_71",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_70"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_72",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_71"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_73",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_72"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_74",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_73"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_75",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_74"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_76",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_75"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_77",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_76"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_78",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_77"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_79",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_78"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_80",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_79"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_81",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_80"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_82",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_81"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_83",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_82"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_84",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_83"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_85",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_84"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_86",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_85"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_87",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_86"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_88",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_87"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_89",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_88"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_90",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_89"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_91",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_90"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_92",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_91"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_93",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_92"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_94",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_93"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_95",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_94"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_96",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_95"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_97",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_96"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_98",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_97"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_99",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_98"
+    }
+  },
+  {
+    "id": "wizard_ekstra_mana_100",
+    "name": "Ekstra Mana",
+    "type": "wizard_special_ability",
+    "cost": 2,
+    "prerequisite": {
+      "requires_spell": "wizard_ekstra_mana_99"
+    }
+  }
+]

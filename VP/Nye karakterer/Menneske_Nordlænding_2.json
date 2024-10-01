@@ -1,0 +1,11 @@
+{
+    "name": "Menneske, Nordlænding 2",
+    "race": "Menneske, Nordlænding",
+    "lp_max": 7,
+    "abilities": [
+        "ability_styrke",
+        "ability_ekstra_livspoint_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

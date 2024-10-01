@@ -1,0 +1,225 @@
+[
+  {
+    "id": "runesmith_ability_grad_2",
+    "name": "Grad 2",
+    "type": "runesmith_ability",
+    "cost": 3,
+    "prerequisite": {
+      "requires_ability": "ability_smede_2",
+      "lower_level_spells_required": 2,
+      "grade": 1
+    }
+  },
+  {
+    "id": "runesmith_ability_grad_3",
+    "name": "Grad 3",
+    "type": "runesmith_ability",
+    "cost": 4,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2",
+      "lower_level_spells_required": 2,
+      "grade": 2
+    }
+  },
+  {
+    "id": "runesmith_ability_grad_4",
+    "name": "Grad 4",
+    "type": "runesmith_ability",
+    "cost": 6,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3",
+      "lower_level_spells_required": 2,
+      "grade": 3
+    }
+  },
+  {
+    "id": "runesmith_spell_mindre_beskyttelsesrune",
+    "name": "Mindre Beskyttelsesrune",
+    "type": "runesmith_spell",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "runesmith_spell_mindre_hjaelperune",
+    "name": "Mindre Hjælperune",
+    "type": "runesmith_spell",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "runesmith_spell_mindre_jernets_styrkerune",
+    "name": "Mindre Jernets Styrkerune",
+    "type": "runesmith_spell",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "runesmith_spell_mindre_rune_mod_magi",
+    "name": "Mindre Rune Mod Magi",
+    "type": "runesmith_spell",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "runesmith_spell_stenfaelderune",
+    "name": "Stenfælderune",
+    "type": "runesmith_spell",
+    "cost": 3,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "runesmith_spell_beskyttelsesrune",
+    "name": "Beskyttelsesrune",
+    "type": "runesmith_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2"
+    }
+  },
+  {
+    "id": "runesmith_spell_hjaelperune",
+    "name": "Hjælperune",
+    "type": "runesmith_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2"
+    }
+  },
+  {
+    "id": "runesmith_spell_ildfaelderune",
+    "name": "Ildfælderune",
+    "type": "runesmith_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2"
+    }
+  },
+  {
+    "id": "runesmith_spell_jernets_styrkerune",
+    "name": "Jernets Styrkerune",
+    "type": "runesmith_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2"
+    }
+  },
+  {
+    "id": "runesmith_spell_rune_mod_magi",
+    "name": "Rune Mod Magi",
+    "type": "runesmith_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_2"
+    }
+  },
+  {
+    "id": "runesmith_spell_stoerre_dvaergerune",
+    "name": "Større Dværgerune",
+    "type": "runesmith_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3"
+    }
+  },
+  {
+    "id": "runesmith_spell_stoerre_hjaelperune",
+    "name": "Større Hjælperune",
+    "type": "runesmith_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3"
+    }
+  },
+  {
+    "id": "runesmith_spell_stoerre_jernets_styrkerune",
+    "name": "Større Jernets Styrkerune",
+    "type": "runesmith_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3"
+    }
+  },
+  {
+    "id": "runesmith_spell_stoerre_rune_mod_magi",
+    "name": "Større Rune Mod Magi",
+    "type": "runesmith_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3"
+    }
+  },
+  {
+    "id": "runesmith_spell_luftfaelderune",
+    "name": "Luftfælderune",
+    "type": "runesmith_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_3"
+    }
+  },
+  {
+    "id": "runesmith_spell_sand_dvaergerune",
+    "name": "Sand Dværgerune",
+    "type": "runesmith_spell",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_4"
+    }
+  },
+  {
+    "id": "runesmith_spell_sand_jernets_styrkerune",
+    "name": "Sand Jernets Styrkerune",
+    "type": "runesmith_spell",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_4"
+    }
+  },
+  {
+    "id": "runesmith_spell_sand_rune_mod_magi",
+    "name": "Sand Rune Mod Magi",
+    "type": "runesmith_spell",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_4"
+    }
+  },
+  {
+    "id": "runesmith_spell_sortblodsbanens_rune",
+    "name": "Sortblodsbanens Rune",
+    "type": "runesmith_spell",
+    "cost": 6,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "runesmith_ability_grad_4"
+    }
+  },
+  {
+    "id": "runesmith_invester_kraft",
+    "name": "Invester Kraft",
+    "type": "runesmith_special_ability",
+    "cost": 6,
+    "prerequisite": {
+      "requires_ability": "laese_skrive_darconsk"
+    }
+  }
+]
+

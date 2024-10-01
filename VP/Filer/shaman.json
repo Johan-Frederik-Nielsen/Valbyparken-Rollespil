@@ -1,0 +1,46 @@
+[
+  {
+    "id": "shaman_level_2",
+    "name": "Grad 2",
+    "type": "shaman_ability",
+    "cost": 8,
+    "prerequisite": null
+  },
+  {
+    "id": "shaman_level_3",
+    "name": "Grad 3",
+    "type": "shaman_ability",
+    "cost": 10,
+    "prerequisite": {
+      "requires_ability": "shaman_level_2"
+    }
+  },
+  {
+    "id": "shaman_level_4",
+    "name": "Grad 4",
+    "type": "shaman_ability",
+    "cost": 12,
+    "prerequisite": {
+      "requires_ability": "shaman_level_3"
+    }
+  },
+  {
+    "id": "shaman_level_5",
+    "name": "Grad 5",
+    "type": "shaman_ability",
+    "cost": 14,
+    "prerequisite": {
+      "requires_ability": "shaman_level_4"
+    }
+  },
+  {
+    "id": "shaman_level_6",
+    "name": "Grad 6",
+    "type": "shaman_ability",
+    "cost": 16,
+    "prerequisite": {
+      "requires_ability": "shaman_level_5"
+    }
+  }
+]
+

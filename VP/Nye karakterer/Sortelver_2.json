@@ -1,0 +1,12 @@
+{
+    "name": "Sortelver 2",
+    "race": "Sortelver",
+    "lp_max": 7,
+    "abilities": [
+        "ability_koordination_2",
+        "ability_koordination_1",
+        "ability_laese_skrive_tziztisk"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

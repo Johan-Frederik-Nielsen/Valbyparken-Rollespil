@@ -1,0 +1,2449 @@
+[
+  {
+    "id": "god_aram",
+    "name": "Aram",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_arl",
+    "name": "Arl",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_burania",
+    "name": "Burania",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_dilarna",
+    "name": "Dilarna",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_djorka",
+    "name": "Djorka",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_fanabina",
+    "name": "Fanabina",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_fisgur",
+    "name": "Fisgur",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_gasnian",
+    "name": "Gasnian",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_girak",
+    "name": "Girak",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_gorrum",
+    "name": "Gorrum",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_iorin",
+    "name": "Iorin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_jorin",
+    "name": "Jorin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_lyane",
+    "name": "Lyane",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_nimar",
+    "name": "Nimar",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_phlarn",
+    "name": "Phlarn",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_ragil",
+    "name": "Ragil",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_rasnasolin",
+    "name": "Rasnasolin",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_rina",
+    "name": "Rina",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_sissiana",
+    "name": "Sissiana",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_tara",
+    "name": "Tara",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "god_thlarn",
+    "name": "Thlarn",
+    "type": "god",
+    "cost": 0,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_codex_almen",
+    "name": "Almen Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_aram",
+        "god_arl",
+        "god_burania",
+        "god_dilarna",
+        "god_djorka",
+        "god_fanabina",
+        "god_fisgur",
+        "god_gasnian",
+        "god_girak",
+        "god_gorrum",
+        "god_iorin",
+        "god_jorin",
+        "god_lyane",
+        "god_nimar",
+        "god_phlarn",
+        "god_ragil",
+        "god_rasnasolin",
+        "god_rina",
+        "god_sissiana",
+        "god_tara",
+        "god_thlarn"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_lyset",
+    "name": "Lyset Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_iorin",
+        "god_jorin",
+        "god_lyane",
+        "god_nimar",
+        "god_ragil",
+        "god_rina",
+        "god_sissiana"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_livet",
+    "name": "Livet Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_djorka",
+        "god_iorin",
+        "god_lyane",
+        "god_nimar",
+        "god_rina",
+        "god_sissiana"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_doeden",
+    "name": "Døden Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_burania",
+        "god_fisgur",
+        "god_girak",
+        "god_rasnasolin"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_krigen",
+    "name": "Krigen Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_arl",
+        "god_djorka",
+        "god_jorin",
+        "god_ragil"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_visdommen",
+    "name": "Visdommen Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_gasnian",
+        "god_girak"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_moerket",
+    "name": "Mørket Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_aram",
+        "god_dilarna",
+        "god_fanabina",
+        "god_fisgur",
+        "god_girak",
+        "god_gorrum",
+        "god_phlarn",
+        "god_thlarn"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_haevnen",
+    "name": "Hævnen Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_dilarna",
+        "god_fanabina",
+        "god_phlarn",
+        "god_ragil"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_magten",
+    "name": "Magten Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_dilarna",
+        "god_fanabina",
+        "god_fisgur",
+        "god_girak",
+        "god_phlarn",
+        "god_rasnasolin"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_freden",
+    "name": "Freden Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_arl",
+        "god_burania",
+        "god_djorka",
+        "god_gasnian",
+        "god_lyane",
+        "god_nimar",
+        "god_sissiana"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_retfaerdigheden",
+    "name": "Retfærdigheden Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_aram",
+        "god_arl",
+        "god_gasnian",
+        "god_gorrum",
+        "god_iorin",
+        "god_jorin",
+        "god_ragil",
+        "god_rasnasolin"
+      ]
+    }
+  },
+  {
+    "id": "paladin_codex_kaos",
+    "name": "Kaos Codex",
+    "type": "codex",
+    "cost": 0,
+    "prerequisite": {
+      "requires_one_of": [
+        "god_aram",
+        "god_fisgur",
+        "god_gorrum",
+        "god_rina",
+        "god_thlarn"
+      ]
+    }
+  },
+  {
+    "id": "paladin_level_2",
+    "name": "Paladin Grad 2",
+    "type": "paladin_level",
+    "cost": 4,
+    "prerequisite": {
+      "requires_spells": {
+        "almen": 1,
+        "gudeskole": 1
+      }
+    }
+  },
+  {
+    "id": "paladin_level_3",
+    "name": "Paladin Grad 3",
+    "type": "paladin_level",
+    "cost": 5,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2",
+      "requires_spells": {
+        "almen": 2,
+        "gudeskole": 2
+      }
+    }
+  },
+    {
+    "id": "paladin_level_4",
+    "name": "Paladin Grad 4",
+    "type": "paladin_level",
+    "cost": 10,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_level_5",
+    "name": "Paladin Grad 5",
+    "type": "paladin_level",
+    "cost": 11,
+    "prerequisite": {
+      "requires_ability": "paladin_level_4"
+    }
+  },
+  {
+    "id": "paladin_level_6",
+    "name": "Paladin Grad 6",
+    "type": "paladin_level",
+    "cost": 12,
+    "prerequisite": {
+      "requires_ability": "paladin_level_5"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_velsignelse",
+    "name": "Velsignelse",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_almen_munkesegl",
+    "name": "Munkesegl",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_almen_sanse_liv",
+    "name": "Sanse Liv",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_almen_modstaa_magi",
+    "name": "Modstå Magi",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_beskyttelse_mod_ondskab",
+    "name": "Beskyttelse mod Ondskab",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_naadegave",
+    "name": "Nådegave",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_helbredelse",
+    "name": "Helbredelse",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_helligdom",
+    "name": "Helligdom",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_almen_messe",
+    "name": "Messe",
+    "type": "paladin_spell",
+    "school": "almen",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_loegn",
+    "name": "Løgn",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_aram_spillets_gang",
+    "name": "Spillets Gang",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_aram_spillefugl",
+    "name": "Spillefugl",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_aram_omtumlet",
+    "name": "Omtumlet",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_glemsel",
+    "name": "Glemsel",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_tavshed",
+    "name": "Tavshed",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_charmer_person",
+    "name": "Charmer Person",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_laane_sprog",
+    "name": "Låne Sprog",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_aram_giftmodstand",
+    "name": "Giftmodstand",
+    "type": "paladin_spell",
+    "school": "aram",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_arl_mod",
+    "name": "Mod",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_arl_sanse_tro",
+    "name": "Sanse Tro",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_arl_klarsyn",
+    "name": "Klarsyn",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_tale_med_doed",
+    "name": "Tale med Død",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_oprigtig_vidnesbyrd",
+    "name": "Oprigtig Vidnesbyrd",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_balancens_mur",
+    "name": "Balancens Mur",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_arl_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "paladin_spell",
+    "school": "arl",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_regeneration",
+    "name": "Regeneration",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_burania_endelig_hvile",
+    "name": "Endelig Hvile",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_burania_doedens_kys",
+    "name": "Dødens Kys",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_burania_frygt",
+    "name": "Frygt",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_tale_med_doed",
+    "name": "Tale med Død",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_aandeform",
+    "name": "Åndeform",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_burania_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "burania",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_doedens_kys",
+    "name": "Dødens Kys",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_dilarna_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_dilarna_livets_kys",
+    "name": "Livets Kys",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_dilarna_loegn",
+    "name": "Løgn",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_udholdenhed",
+    "name": "Udholdenhed",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_animer_lig",
+    "name": "Animér Lig",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_dilarna_pinsel",
+    "name": "Pinsel",
+    "type": "paladin_spell",
+    "school": "dilarna",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_djorka_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_djorka_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_djorka_fortryllet_smedje_1",
+    "name": "Fortryllet Smedje",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_omtumlet",
+    "name": "Omtumlet",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_projektilvaern",
+    "name": "Projektilværn",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_fortryllet_smedje_2",
+    "name": "Fortryllet Smedje",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_djorka_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "paladin_spell",
+    "school": "djorka",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_form_foelelser",
+    "name": "Form Følelser",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fanabina_loegn",
+    "name": "Løgn",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fanabina_tavshed",
+    "name": "Tavshed",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fanabina_charmer_person",
+    "name": "Charmér Person",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_forhekse",
+    "name": "Forhekse",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_gemme",
+    "name": "Gemme",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_haevneren",
+    "name": "Hævneren",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fanabina_ordets_forbandelse",
+    "name": "Ordets Forbandelse",
+    "type": "paladin_spell",
+    "school": "fanabina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_regeneration",
+    "name": "Regeneration",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fisgur_frygt",
+    "name": "Frygt",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fisgur_tavshed",
+    "name": "Tavshed",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_fisgur_fortaere",
+    "name": "Fortære",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_glemsel",
+    "name": "Glemsel",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_fisgur_velsignet_klinge",
+    "name": "Velsignet Klinge",
+    "type": "paladin_spell",
+    "school": "fisgur",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_ekspertise",
+    "name": "Ekspertise",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gasnian_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gasnian_sanse_tro",
+    "name": "Sanse Tro",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gasnian_klarsyn",
+    "name": "Klarsyn",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_identificere",
+    "name": "Identificere",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_gyldent_syn",
+    "name": "Gyldent Syn",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_stasis",
+    "name": "Stasis",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gasnian_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "paladin_spell",
+    "school": "gasnian",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_girak_spillefugl",
+    "name": "Spillefugl",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_girak_vand",
+    "name": "Vand",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_girak_gemme",
+    "name": "Gemme",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_spillets_gang",
+    "name": "Spillets Gang",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_velsignet_klinge",
+    "name": "Velsignet Klinge",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_vindens_vej",
+    "name": "Vindens Vej",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_giftens_finger",
+    "name": "Giftens Finger",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_girak_gyldent_syn",
+    "name": "Gyldent Syn",
+    "type": "paladin_spell",
+    "school": "girak",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gorrum_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gorrum_vand",
+    "name": "Vand",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_gorrum_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_fortaere",
+    "name": "Fortære",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_ildkugle",
+    "name": "Ildkugle",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_gorrum_projektilvaern",
+    "name": "Projektilværn",
+    "type": "paladin_spell",
+    "school": "gorrum",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_iorin_lys",
+    "name": "Lys",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_iorin_mod",
+    "name": "Mod",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_iorin_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_styrke",
+    "name": "Styrke",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_barmhjertighed",
+    "name": "Barmhjertighed",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_vaern",
+    "name": "Værn",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_iorin_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "paladin_spell",
+    "school": "iorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_jorin_lys",
+    "name": "Lys",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_jorin_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_jorin_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_sanse_men",
+    "name": "Sanse Mén",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_stoerre_velsignelse",
+    "name": "Større Velsignelse",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_livets_haab",
+    "name": "Livets Håb",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_jorin_udholdenhed",
+    "name": "Udholdenhed",
+    "type": "paladin_spell",
+    "school": "jorin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_fred",
+    "name": "Fred",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_lyane_form_foelelser",
+    "name": "Form Følelser",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_lyane_vand",
+    "name": "Vand",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_lyane_charmer_person",
+    "name": "Charmér Person",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_traeskjul",
+    "name": "Træskjul",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_lyane_vandform",
+    "name": "Vandform",
+    "type": "paladin_spell",
+    "school": "lyane",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_fred",
+    "name": "Fred",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_nimar_lys",
+    "name": "Lys",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_nimar_sanse_men",
+    "name": "Sanse Mén",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_nimar_helbredelse",
+    "name": "Helbredelse",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_haandspaalaggelse",
+    "name": "Håndspålæggelse",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_regeneration",
+    "name": "Regeneration",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_charmer_person",
+    "name": "Charmér Person",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_nimar_selvopofrelse",
+    "name": "Selvopofrelse",
+    "type": "paladin_spell",
+    "school": "nimar",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_phlarn_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_phlarn_mod",
+    "name": "Mod",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_phlarn_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_animere_lig",
+    "name": "Animere Lig",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_manipulation",
+    "name": "Manipulation",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_phlarn_pinsel",
+    "name": "Pinsel",
+    "type": "paladin_spell",
+    "school": "phlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_ragil_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_ragil_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_ragil_duel",
+    "name": "Duel",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_ildkugle",
+    "name": "Ildkugle",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_renhedens_klinge",
+    "name": "Renhedens Klinge",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_flammeklinge",
+    "name": "Flammeklinge",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_ragil_fortryllet_smedje",
+    "name": "Fortryllet Smedje",
+    "type": "paladin_spell",
+    "school": "ragil",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_vand",
+    "name": "Vand",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rasnasolin_lys",
+    "name": "Lys",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rasnasolin_mod",
+    "name": "Mod",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rasnasolin_vandform",
+    "name": "Vandform",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_dehydrere",
+    "name": "Dehydrere",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_iskugle",
+    "name": "Iskugle",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rasnasolin_projektilvaern",
+    "name": "Projektilværn",
+    "type": "paladin_spell",
+    "school": "rasnasolin",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_ekspertise",
+    "name": "Ekspertise",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rina_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rina_lys",
+    "name": "Lys",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_rina_afvaerge",
+    "name": "Afværge",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_frygt",
+    "name": "Frygt",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_identificere",
+    "name": "Identificere",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_kontroller_uddoed",
+    "name": "Kontrollér Udød",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_rina_animer_lig",
+    "name": "Animér Lig",
+    "type": "paladin_spell",
+    "school": "rina",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_naturlig_balance",
+    "name": "Naturlig Balance",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_sissiana_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_sissiana_form_foelelser",
+    "name": "Form Følelser",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_sissiana_fred",
+    "name": "Fred",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_projektilvaern",
+    "name": "Projektilværn",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_charmer_person",
+    "name": "Charmér Person",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_vandform",
+    "name": "Vandform",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_jordens_velsignelse",
+    "name": "Jordens Velsignelse",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_sissiana_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "sissiana",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_ekspertise",
+    "name": "Ekspertise",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_tara_flammernes_noegle",
+    "name": "Flammernes Nøgle",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_tara_vand",
+    "name": "Vand",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_tara_sanse_magi",
+    "name": "Sanse Magi",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_vandform",
+    "name": "Vandform",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_vindstoed",
+    "name": "Vindstød",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_identificere",
+    "name": "Identificere",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_ildkugle",
+    "name": "Ildkugle",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_tara_projektilvaern",
+    "name": "Projektilværn",
+    "type": "paladin_spell",
+    "school": "tara",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_kraftslag",
+    "name": "Kraftslag",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_thlarn_mod",
+    "name": "Mod",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_thlarn_mental_styrke",
+    "name": "Mental Styrke",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "paladin_spell_thlarn_blodsoffer",
+    "name": "Blodsoffer",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_smerte",
+    "name": "Smerte",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_klippestyrke",
+    "name": "Klippestyrke",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "paladin_level_2"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_krigsraab",
+    "name": "Krigsråb",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_fortaere",
+    "name": "Fortære",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  },
+  {
+    "id": "paladin_spell_thlarn_kommando",
+    "name": "Kommando",
+    "type": "paladin_spell",
+    "school": "thlarn",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "paladin_level_3"
+    }
+  }
+]

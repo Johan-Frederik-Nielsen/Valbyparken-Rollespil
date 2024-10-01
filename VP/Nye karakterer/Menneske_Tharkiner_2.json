@@ -1,0 +1,12 @@
+{
+    "name": "Menneske, Tharkiner 2",
+    "race": "Menneske, Tharkiner",
+    "lp_max": 7,
+    "abilities": [
+        "ability_vurdere",
+        "ability_giftmodstand_1",
+        "ability_laese_skrive_tharkinsk"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

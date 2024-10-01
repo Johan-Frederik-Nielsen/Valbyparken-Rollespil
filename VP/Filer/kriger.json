@@ -1,0 +1,546 @@
+[
+  {
+    "id": "warrior_ability_level_1_strength",
+    "name": "Styrkens Disciplin Grad 1",
+    "type": "warrior_ability",
+    "discipline": "styrkens_disciplin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "warrior_ability_level_2_strength",
+    "name": "Styrkens Disciplin Grad 2",
+    "type": "warrior_ability",
+    "discipline": "styrkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_strength"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_strength",
+    "name": "Styrkens Disciplin Grad 3",
+    "type": "warrior_ability",
+    "discipline": "styrkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_strength"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_agility",
+    "name": "Smidighedens Disciplin Grad 1",
+    "type": "warrior_ability",
+    "discipline": "smidighedens_disciplin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "warrior_ability_level_2_agility",
+    "name": "Smidighedens Disciplin Grad 2",
+    "type": "warrior_ability",
+    "discipline": "smidighedens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_agility"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_agility",
+    "name": "Smidighedens Disciplin Grad 3",
+    "type": "warrior_ability",
+    "discipline": "smidighedens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_agility"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_tactics",
+    "name": "Taktikkens Disciplin Grad 1",
+    "type": "warrior_ability",
+    "discipline": "taktikkens_disciplin",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "warrior_ability_level_2_tactics",
+    "name": "Taktikkens Disciplin Grad 2",
+    "type": "warrior_ability",
+    "discipline": "taktikkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_tactics"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_tactics",
+    "name": "Taktikkens Disciplin Grad 3",
+    "type": "warrior_ability",
+    "discipline": "taktikkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_overlevelsesinstinkt",
+    "name": "Overlevelsesinstinkt",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_1_strength", "warrior_ability_level_1_agility", "warrior_ability_level_1_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_det_glatte_sind",
+    "name": "Det glatte sind",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_1_strength", "warrior_ability_level_1_agility", "warrior_ability_level_1_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_standhaftighed",
+    "name": "Standhaftighed",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_2_strength", "warrior_ability_level_2_agility", "warrior_ability_level_2_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_kampberedskab",
+    "name": "Kampberedskab",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_2_strength", "warrior_ability_level_2_agility", "warrior_ability_level_2_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_anti_magisk_tilfoersel",
+    "name": "Anti-magisk Tilførsel",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_3_strength", "warrior_ability_level_3_agility", "warrior_ability_level_3_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_udoedelighed",
+    "name": "Udødelighed",
+    "type": "warrior_spell",
+    "discipline": "den_almen_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_any_ability": ["warrior_ability_level_3_strength", "warrior_ability_level_3_agility", "warrior_ability_level_3_tactics"]
+    }
+  },
+  {
+    "id": "warrior_spell_muskelbundt",
+    "name": "Muskelbundt",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_tykpandet",
+    "name": "Tykpandet",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_bastion",
+    "name": "Bastion",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_troldeslag",
+    "name": "Troldeslag",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_jernets_faestning",
+    "name": "Jernets Fæstning",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_nyrestoed",
+    "name": "Nyrestød",
+    "type": "warrior_spell",
+    "discipline": "styrkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_strength"
+    }
+  },
+  {
+    "id": "warrior_spell_camouflage",
+    "name": "Camouflage",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_hvem_er_du",
+    "name": "Hvem er du?",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_spejder",
+    "name": "Spejder",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_smidig_kamp",
+    "name": "Smidig kamp",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_beskidt_kamp",
+    "name": "Beskidt kamp",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_skyggernes_pil",
+    "name": "Skyggernes Pil",
+    "type": "warrior_spell",
+    "discipline": "smidighedens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_agility"
+    }
+  },
+  {
+    "id": "warrior_spell_lederskab",
+    "name": "Lederskab",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_rustningsspecialisering",
+    "name": "Rustningsspecialisering",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 5,
+    "grade": 1,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_faellesskab",
+    "name": "Fællesskab",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_bannerherre",
+    "name": "Bannerherre",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_ren_loyalitet",
+    "name": "Ren loyalitet",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_tactics"
+    }
+  },
+  {
+    "id": "warrior_spell_symbolets_magt",
+    "name": "Symbolets magt",
+    "type": "warrior_spell",
+    "discipline": "taktikkens_disciplin",
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_3_tactics"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_tohaandsvaabenkamp",
+    "name": "Tohåndsvåbenkamp niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_tohaandsvaabenkamp",
+    "name": "Tohåndsvåbenkamp niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_tohaandsvaabenkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_tohaandsvaabenkamp",
+    "name": "Tohåndsvåbenkamp niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_tohaandsvaabenkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_dobbeltvaebnetkamp",
+    "name": "Dobbeltvæbnet kamp niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_dobbeltvaebnetkamp",
+    "name": "Dobbeltvæbnet kamp niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_dobbeltvaebnetkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_dobbeltvaebnetkamp",
+    "name": "Dobbeltvæbnet kamp niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_dobbeltvaebnetkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_bueskydning",
+    "name": "Bueskydning niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_bueskydning",
+    "name": "Bueskydning niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_bueskydning"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_bueskydning",
+    "name": "Bueskydning niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_bueskydning"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_spydkamp",
+    "name": "Spydkamp niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_spydkamp",
+    "name": "Spydkamp niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_spydkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_spydkamp",
+    "name": "Spydkamp niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_spydkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_ethaandetfaegtekunst",
+    "name": "Et-håndet fægtekunst niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_ethaandetfaegtekunst",
+    "name": "Et-håndet fægtekunst niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_ethaandetfaegtekunst"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_ethaandetfaegtekunst",
+    "name": "Et-håndet fægtekunst niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_ethaandetfaegtekunst"
+    }
+  },
+  {
+    "id": "warrior_ability_level_1_ridderkamp",
+    "name": "Ridderkamp niveau 1",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": null
+  },
+  {
+    "id": "warrior_ability_level_2_ridderkamp",
+    "name": "Ridderkamp niveau 2",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 5,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_1_ridderkamp"
+    }
+  },
+  {
+    "id": "warrior_ability_level_3_ridderkamp",
+    "name": "Ridderkamp niveau 3",
+    "type": "warrior_kampstil",
+    "discipline": null,
+    "cost": 6,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "warrior_ability_level_2_ridderkamp"
+    }
+  }
+]
+

@@ -1,0 +1,13 @@
+{
+    "name": "Ork 2",
+    "race": "Ork",
+    "lp_max": 9,
+    "abilities": [
+        "ability_rustningsbrug",
+        "ability_vaabenbrug",
+        "ability_skjoldbrug",
+        "ability_koordination_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

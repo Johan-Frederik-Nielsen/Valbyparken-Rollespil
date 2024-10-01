@@ -1,0 +1,13 @@
+{
+    "name": "Menneske, Traegonner 2",
+    "race": "Menneske, Traegonner",
+    "lp_max": 7,
+    "abilities": [
+        "ability_overvaagenhed_1",
+        "ability_koordination_2",
+        "ability_koordination_1",
+        "ability_afstandsvaaben"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Dværg 2",
+    "race": "Dværg",
+    "lp_max": 9,
+    "abilities": [
+        "ability_skjoldbrug",
+        "ability_koordination_1",
+        "ability_giftmodstand_2",
+        "ability_vaabenbrug",
+        "ability_giftmodstand_1",
+        "ability_rustningsbrug"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

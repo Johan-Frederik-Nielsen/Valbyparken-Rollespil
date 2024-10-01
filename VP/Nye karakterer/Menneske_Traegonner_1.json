@@ -1,0 +1,11 @@
+{
+    "name": "Menneske, Traegonner 1",
+    "race": "Menneske, Traegonner",
+    "lp_max": 7,
+    "abilities": [
+        "ability_sejdbryggeri_1",
+        "ability_urtekundskab_1"
+    ],
+    "spent_ep": 0,
+    "total_ep": 30
+}

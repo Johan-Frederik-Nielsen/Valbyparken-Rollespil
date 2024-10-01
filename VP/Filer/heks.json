@@ -1,0 +1,315 @@
+[
+  {
+    "id": "witch_ability_grad_2",
+    "name": "Grad 2",
+    "type": "witch_ability",
+    "cost": 3,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 1
+    }
+  },
+  {
+    "id": "witch_ability_grad_3",
+    "name": "Grad 3",
+    "type": "witch_ability",
+    "cost": 4,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 2
+    }
+  },
+  {
+    "id": "witch_ability_grad_4",
+    "name": "Grad 4",
+    "type": "witch_ability",
+    "cost": 5,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 3
+    }
+  },
+  {
+    "id": "witch_ability_grad_5",
+    "name": "Grad 5",
+    "type": "witch_ability",
+    "cost": 6,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 4
+    }
+  },
+  {
+    "id": "witch_ability_grad_6",
+    "name": "Grad 6",
+    "type": "witch_ability",
+    "cost": 7,
+    "prerequisite": {
+      "type": "spells",
+      "lower_level_spells_required": 2,
+      "grade": 5
+    }
+  },
+  {
+    "id": "witch_spell_frygt",
+    "name": "Frygt",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "witch_spell_hjemkald_skyggevaesen",
+    "name": "Hjemkald skyggevæsen",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "witch_spell_skyggebod",
+    "name": "Skyggebod",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "witch_spell_tavshed",
+    "name": "Tavshed",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 1,
+    "prerequisite": []
+  },
+  {
+    "id": "witch_spell_smerte",
+    "name": "Smerte",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_2"
+    }
+  },
+  {
+    "id": "witch_spell_morkets_gitter",
+    "name": "Mørkets Gitter",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_2"
+    }
+  },
+  {
+    "id": "witch_spell_forhekse",
+    "name": "Forhekse",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_2"
+    }
+  },
+  {
+    "id": "witch_spell_fordrukkenhed",
+    "name": "Fordrukkenhed",
+    "type": "witch_spell",
+    "cost": 4,
+    "grade": 2,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_2"
+    }
+  },
+  {
+    "id": "witch_spell_forkroeble",
+    "name": "Forkrøble",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_3"
+    }
+  },
+  {
+    "id": "witch_spell_aura_af_vanhellig_magt",
+    "name": "Aura Af Vanhellig Magt",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_3"
+    }
+  },
+  {
+    "id": "witch_spell_modstaa_magi",
+    "name": "Modstå Magi",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_3"
+    }
+  },
+  {
+    "id": "witch_spell_skjul",
+    "name": "Skjul",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 3,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_3"
+    }
+  },
+  {
+    "id": "witch_spell_livsdraen",
+    "name": "Livsdræn",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_4"
+    }
+  },
+  {
+    "id": "witch_spell_regeneration",
+    "name": "Regeneration",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_4"
+    }
+  },
+  {
+    "id": "witch_spell_ophaev_blodets_magt",
+    "name": "Ophæv Blodets Magt",
+    "type": "witch_spell",
+    "cost": 5,
+    "grade": 4,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_4"
+    }
+  },
+  {
+    "id": "witch_spell_saarbarhed",
+    "name": "Sårbarhed",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_5"
+    }
+  },
+  {
+    "id": "witch_spell_besaettelse",
+    "name": "Besættelse",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_5"
+    }
+  },
+  {
+    "id": "witch_spell_heksens_vaaben",
+    "name": "Heksens Våben",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 5,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_5"
+    }
+  },
+  {
+    "id": "witch_spell_sjaelebod",
+    "name": "Sjælebod",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_6"
+    }
+  },
+  {
+    "id": "witch_spell_skyggens_blodpagt",
+    "name": "Skyggens Blodpagt",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_6"
+    }
+  },
+  {
+    "id": "witch_spell_genopstandelse",
+    "name": "Genopstandelse",
+    "type": "witch_spell",
+    "cost": 6,
+    "grade": 6,
+    "prerequisite": {
+      "requires_ability": "witch_ability_grad_6"
+    }
+  },
+  {
+    "id": "witch_ritual_blodets_forbandelse",
+    "name": "Blodsritual: Blodets Forbandelse",
+    "type": "witch_ritual",
+    "cost": 5,
+    "prerequisite": {
+      "requires_spell": "witch_spell_smerte"
+    }
+  },
+  {
+    "id": "witch_ritual_blodsforstaerk",
+    "name": "Blodsritual: Blodsforstærk",
+    "type": "witch_ritual",
+    "cost": 7,
+    "prerequisite": {
+      "requires_blood_rituals": 3,
+      "requires_spells": 5
+    }
+  },
+  {
+    "id": "witch_ritual_heksens_maerke",
+    "name": "Blodsritual: Heksens Mærke",
+    "type": "witch_ritual",
+    "cost": 5,
+    "prerequisite": {
+      "requires_spell": "witch_spell_saarbarhed"
+    }
+  },
+  {
+    "id": "witch_ritual_kragebo",
+    "name": "Blodsritual: Kragebo",
+    "type": "witch_ritual",
+    "cost": 3,
+    "prerequisite": {
+      "requires_spell": "witch_spell_morkets_gitter"
+    }
+  },
+  {
+    "id": "witch_ritual_bevar_blod",
+    "name": "Blodsritual: Bevar Blod",
+    "type": "witch_ritual",
+    "cost": 3,
+    "prerequisite": {
+      "requires_spell": "witch_spell_ophaev_blodets_magt"
+    }
+  },
+  {
+    "id": "witch_ritual_skyggedestruktion",
+    "name": "Blodsritual: Skyggedestruktion",
+    "type": "witch_ritual",
+    "cost": 7,
+    "prerequisite": {
+      "requires_blood_rituals": 4
+    }
+  }
+]
+
